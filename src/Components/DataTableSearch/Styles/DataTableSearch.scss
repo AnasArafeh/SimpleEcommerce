@@ -1,0 +1,21 @@
+.dataTableSearch {
+  max-width: 230pc;
+  border-radius: 0.75rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  display: flex;
+}
+
+.dataTableSearchLabel {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.03333em !important;
+  opacity: 1;
+  text-transform: capitalize;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(52, 71, 103) !important;
+  font-weight: 700 !important;
+  padding-bottom: 10px !important;
+}

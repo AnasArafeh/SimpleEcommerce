@@ -1,0 +1,47 @@
+.DataTableContainer {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem !important;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    background-color: rgb(255, 255, 255);
+    position: relative !important;
+    margin-top: 25px !important;
+}
+.DataTableTitleContainer {
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 35px;
+    padding-right: 24px
+}
+.DataTableTitle {
+    font-size: 1.25rem !important;
+    font-weight: 500;
+    color: rgb(52, 71, 103)
+}
+.DataTableSubTitle {
+    font-size: 0.875rem !important;
+    color: rgb(103, 116, 142);
+    letter-spacing: 0.02857em !important;
+    padding-left: 2px !important;
+
+}
+.DataTableLoader {
+    display: flex;
+    padding: 20px 0px !important;
+    justify-content: center !important;
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    z-index: 9999;
+}
+.DataTableFilters {
+    padding-left: 24px;
+    padding-right: 24px
+}
+.DataTableLoaderCell {
+    border: none;
+    padding: 0
+}
+.DataTableNoResultCell {
+    border: none
+}

@@ -1,0 +1,30 @@
+.TablePaperContainer {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem !important;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    background-color: rgb(255, 255, 255) !important;
+    position: relative;
+    margin-top: 25px;
+}
+
+.TableTitleContainer{
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    padding-right: 24px
+}
+
+.TableTitle {
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+    color: rgb(52, 71, 103)
+}
+
+.TableSubTitle {
+    font-size: 0.875rem !important;
+    color: rgb(103, 116, 142);
+    letter-spacing: 0.02857em !important;
+    padding-left: 2px;
+
+}

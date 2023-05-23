@@ -1,0 +1,52 @@
+.DataTableContainer {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 25px
+}
+
+.DataTabletitle {
+    padding-left: 24px;
+    padding-top: 24px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(52, 71, 103)
+}
+
+.DataTablesubTitle{
+    font-size: 0.875rem;
+    color: rgb(103, 116, 142);
+    letter-spacing: 0.02857em !important;
+    padding-left: 26px;
+    padding-bottom: 20px
+}
+
+.DataTablesearch {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 24px;
+    border-radius: 0.75rem !important;
+    border: 1px solid rgba(0, 0, 0, 0.12)
+}
+
+.DataTableloader {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 9999
+}
+
+.DataTableloaderCell {
+    border:none; 
+    padding: 0
+}
+
+.DataTablenoResultCell {
+    border: none
+}

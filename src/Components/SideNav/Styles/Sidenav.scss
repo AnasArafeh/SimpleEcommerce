@@ -1,0 +1,159 @@
+.SideNavcontainer {
+    background-color: transparent;
+    margin-bottom: 0;
+    left: 0px;
+    transform: translateX(0px);
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, background-color 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    border: none;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.87);
+    overflow: unset;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    z-index: 1200;
+    position: fixed;
+    top: 0px;
+    outline: 0px;
+    backdrop-filter: saturate(200%) blur(1.875rem);
+    height: calc(100vh - 2rem);
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0px;
+    overflow-y: auto
+
+}
+
+.smallContainer {
+    transform: translateX(0px);
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    box-shadow: rgb(0 0 0 / 5%) 0rem 1.25rem 1.6875rem 0rem;
+    border: none;
+    color: rgba(0, 0, 0, 0.87);
+    overflow: unset;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    flex: 1 0 auto;
+    z-index: 1200;
+    position: fixed;
+    top: 0px;
+    outline: 0px;
+    left: 0px;
+    background-color: transparent;
+    backdrop-filter: saturate(200%) blur(1.875rem);
+    height: calc(100vh - 2rem);
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0px;
+    overflow-y: auto
+}
+
+.titleContainer {
+    display: flex;
+    padding-left: 6px
+}
+
+.title {
+    letter-spacing: 0.03333em !important;
+    color: rgb(52, 71, 103);
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+    font-weight: 700 !important;
+    font-size: 0.75rem !important;
+    text-transform: uppercase;
+    line-height: 1.25 !important;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+    opacity: 0.6;
+    padding-bottom: 5px;
+    padding-left: 5px
+}
+
+.divider {
+    flex-shrink: 0 !important;
+    border-top: 0px solid rgba(0, 0, 0, 0.12) !important;
+    border-right: 0px solid rgba(0, 0, 0, 0.12) !important;
+    border-left: 0px solid rgba(0, 0, 0, 0.12) !important;
+    border-bottom: none !important;
+    background-color: transparent;
+    height: 0.0625rem;
+    margin: 0.25rem 0px !important;
+    opacity: 0.40;
+    background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.5), rgba(52, 71, 103, 0)) !important
+}
+
+.logo {
+    width: 75px !important;
+    margin-left: 5px !important
+}
+
+.logoTitle {
+    vertical-align: top;
+    line-height: 4.7;
+    font-weight: 500;
+    font-size: 16;
+    overflow: hidden;
+    max-width: 155px;
+    display: inline-block
+}
+
+.iconButton {
+    padding: 0 !important;
+    margin-bottom: 40px !important;
+}
+
+.listItemButton {
+    margin-left: -4.7px !important;
+    &:hover {
+        background: none
+    }
+}
+
+.itemSelected {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 0.5rem !important;
+    box-shadow: rgb(0 0 0 / 5%) 0rem 1.25rem 1.6875rem 0rem !important;
+}
+
+.itemText {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0;
+    cursor: pointer
+}
+
+.sidenavIconsBox {
+    width: 32px;
+    height: 32px;
+    box-shadow: rgb(20 20 20 / 12%) 0rem 0.25rem 0.375rem -0.0625rem, rgb(20 20 20 / 7%) 0rem 0.125rem 0.25rem -0.0625rem;
+    transition: margin 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 0.5rem;
+}
+
+.sidenavIcons {
+    justify-content: left;
+    padding: 4px;
+    min-width: unset !important;
+}
+
+.listItemContainer {
+    display: flex;
+}
+
+.listItemBox {
+    margin-left: 10px;
+}
+
+.listItem {
+    width: 125px;
+    color: rgb(52, 71, 103) !important;
+}
+
+.dotItem {
+    padding-right: 10px;
+}
+
+.selectedIcon {
+    background: rgb(23, 193, 232);
+}

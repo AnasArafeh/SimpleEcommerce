@@ -1,0 +1,25 @@
+.dialogButton {
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 5px;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background-color: rgb(23, 193, 232);
+    color: #fff;
+}
+
+.denyButton {
+    background-color: rgb(232, 23, 33);
+    color: #fff;
+}
+
+
+.confirmButton {
+    background-color: rgb(65, 232, 23);
+    color: #fff;
+}
